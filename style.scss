@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "8134"; /* Имя шрифта */
+    src: url("/fonts/8143.otf"); /* Путь к файлу со шрифтом */
+}
+
+body {
+    max-width: 1600px;
+    padding: 0;
+    margin: 0 auto;
+}
+header {
+    background: url("img/Layer\ 96.png");
+    background-clip: border-box;
+    background-size: cover;
+    background-position: -50px 5px;
+    overflow: hidden;
+    height: 880px;
+}
+
+.header-container {
+    max-width: 1200px;
+    height: 101px;
+    margin: 0 auto;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+}
+.header__list {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header__list_mod {
+    flex-wrap: nowrap;
+}
+
+.cont {
+    display: flex;
+}
+
+.item {
+    margin: 0 5px;
+
+    a {
+        text-decoration: none;
+        font-family: "8134";
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .icon {
+        background: url("icons/sprites2.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 39px;
+        width: 40px;
+    }
+    .icon-1 {
+        background-position: 0 top;
+    }
+    .icon-2 {
+        background: url("icons/sprites2.png");
+        background-position: 40px top;
+    }
+    .icon-3 {
+        background: url("icons/sprites2.png");
+        background-position: 80px top;
+    }
+    .icon-4 {
+        background: url("icons/sprites2.png");
+        background-position: 120px top;
+    }
+}

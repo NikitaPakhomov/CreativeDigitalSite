@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "8134";
+    /* Имя шрифта */
+    src: url("/fonts/8143.otf");
+    /* Путь к файлу со шрифтом */
+}
+
+body {
+    max-width: 1600px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+header {
+    background: url("img/Layer 96.png");
+    background-clip: border-box;
+    background-size: cover;
+    background-position: -50px 5px;
+    overflow: hidden;
+    height: 880px;
+}
+
+.header-container {
+    max-width: 1200px;
+    height: 101px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    list-style: none;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.header__list_mod {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.item {
+    margin: 0 5px;
+}
+
+.item a {
+    text-decoration: none;
+    font-family: "8134";
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.item .icon {
+    background: url("icons/sprites2.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 39px;
+    width: 40px;
+}
+
+.item .icon-1 {
+    background-position: 0 top;
+}
+
+.item .icon-2 {
+    background: url("icons/sprites2.png");
+    background-position: 40px top;
+}
+
+.item .icon-3 {
+    background: url("icons/sprites2.png");
+    background-position: 80px top;
+}
+
+.item .icon-4 {
+    background: url("icons/sprites2.png");
+    background-position: 120px top;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="75" viewBox="0 0 79 75">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9_copy" data-name="Rectangle 9 copy" width="67" height="67" transform="translate(214 22)" fill="#11749e"/>
+    </clipPath>
+  </defs>
+  <g id="Logo" transform="translate(-214 -22)">
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="67" height="67" transform="translate(226 30)" fill="#fff" opacity="0.749"/>
+    <g id="Rectangle_9_copy-2" data-name="Rectangle 9 copy">
+      <rect id="Rectangle_9_copy-3" data-name="Rectangle 9 copy" width="67" height="67" transform="translate(214 22)" fill="#11749e"/>
+      <g id="Clip" clip-path="url(#clip-path)">
+        <text id="CS" transform="translate(247.136 65.965)" fill="#f5f5f5" font-size="30.463" font-family="SegoeUI, Segoe UI"><tspan x="-17.522" y="0">CS</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
