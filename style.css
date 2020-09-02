@@ -270,4 +270,36 @@ header {
   font-size: 0.9rem;
   color: white;
 }
+
+.third-container {
+  min-height: 925px;
+}
+
+.extensions-items {
+  max-width: 1600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.extensions-item {
+  width: 50%;
+  min-height: 462.5px;
+}
+
+.extensions-item-2 {
+  background: url("img/Rectangle6copy3.png") no-repeat;
+  background-size: cover;
+}
+
+.extensions-item-3 {
+  background: url("img/Rectangle6copy4.png") no-repeat;
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */
