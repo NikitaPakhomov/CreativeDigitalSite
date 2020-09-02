@@ -131,20 +131,25 @@ header {
 }
 
 // -----------------------main-------------
+//------------------------1-section---------
 .second-container {
     background-color: #11749e;
-    height: 741px;
+    min-height: 761px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .feature-container {
-    height: 100%;
+    min-height: 600px;
     max-width: 1170px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
+
 .feature-title {
     font-size: 1.7rem;
     color: #ffffff;
@@ -165,12 +170,13 @@ header {
     justify-content: center;
 }
 .feature-item {
+    min-height: 300px;
     text-align: center;
     margin: 0 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     .feature-img {
         width: 132px;
         height: 132px;
@@ -193,3 +199,5 @@ header {
         color: white;
     }
 }
+
+//-----------------2-section-------------------------
