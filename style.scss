@@ -132,20 +132,25 @@ header {
 }
 
 // -----------------------main-------------
+//------------------------1-section---------
 .second-container {
     background-color: #11749e;
-    height: 741px;
+    min-height: 761px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .feature-container {
-    height: 100%;
+    min-height: 600px;
     max-width: 1170px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
+
 .feature-title {
     font-size: 1.7rem;
     color: #ffffff;
@@ -166,12 +171,13 @@ header {
     justify-content: center;
 }
 .feature-item {
+    min-height: 300px;
     text-align: center;
     margin: 0 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     .feature-img {
         width: 132px;
         height: 132px;
@@ -193,4 +199,32 @@ header {
         font-size: 0.9rem;
         color: white;
     }
+}
+
+//-----------------2-section-------------------------
+
+.third-container {
+    min-height: 925px;
+}
+.extensions-items {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.extensions-item {
+    width: 50%;
+    min-height: 462.5px;
+}
+.extensions-item-1 {
+}
+.extensions-item-2 {
+    background: url("img/Rectangle6copy3.png") no-repeat;
+    background-size: cover;
+}
+.extensions-item-3 {
+    background: url("img/Rectangle6copy4.png") no-repeat;
+    background-size: cover;
+}
+.extensions-item-4 {
 }
