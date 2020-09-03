@@ -327,6 +327,7 @@ header {
   max-width: 1170px;
   min-height: 1017px;
   margin: 0 auto;
+  padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,5 +426,85 @@ header {
 .item-image-4 {
   background: url("img/1.png") no-repeat;
   background-size: cover;
+}
+
+.fifth-container {
+  background-color: #11749e;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.notes-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notes-item {
+  max-width: 555px;
+  height: 107px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notes-img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100px;
+  height: 69px;
+  background: url("icons/Write.svg") no-repeat;
+  background-position: center center;
+  margin-right: 5px;
+}
+
+.notes-text {
+  color: #ffffff;
+}
+
+.sixth-container {
+  width: 1600px;
+  height: 871px;
+  background: url("img/Clip.jpg") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.chips-text p {
+  margin: 0;
+}
+
+.chips-phone {
+  background: url("img/Rectangle1.jpg"), url("img/text.jpg");
 }
 /*# sourceMappingURL=style.css.map */
