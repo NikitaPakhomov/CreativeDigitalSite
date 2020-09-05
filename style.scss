@@ -316,7 +316,7 @@ header {
 //------------------4-section--------------------
 .fifth-container {
     background-color: #11749e;
-    height: 20vh;
+    min-height: 355px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -350,19 +350,110 @@ header {
 
 //------------------5-section--------------------
 .sixth-container {
-    width: 1600px;
-    height: 871px;
-    background: url("img/Clip.jpg") no-repeat;
+    min-height: 848px;
+    background: url("img/Clip.jpg") repeat;
     background-size: cover;
-    overflow: hidden;
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .chips-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .chips-text {
-    p {
-        margin: 0;
-    }
+    font-size: 1rem;
+    max-width: 432px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chips-text-item1 {
+    width: 370px;
+}
+
+.chips-text-item2 {
+    width: 400px;
+}
+
+.chips-text-item3 {
+    width: 428px;
+}
+
+.chips-text-item_mod {
+    box-sizing: border-box;
+    background-color: #11749e;
+    height: 38px;
+    padding: 11px 0;
+    padding-left: 10px;
 }
 .chips-phone {
-    background: url("img/Rectangle1.jpg"), url("img/text.jpg");
+    background: url("img/Rectangle1.png");
+    width: 390px;
+    height: 651px;
+    position: relative;
+}
+
+.chips-phone::after {
+    position: absolute;
+    content: "";
+    background: url("img/text.jpg");
+    width: 284.05px;
+    height: 494.31px;
+    top: 76.8px;
+    left: 50px;
+}
+
+//---------------6-team-section-------------
+
+.seventh-container {
+    min-width: 944px;
+    color: #fff;
+}
+.team-container {
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.team-title {
+    font-size: 2.5rem;
+    color: #222222;
+    position: relative;
+    z-index: 10;
+    padding-top: 80px;
+}
+.team-title::after {
+    content: "T";
+    color: #707070;
+    font-size: 15rem;
+    position: absolute;
+    top: -40px;
+    left: 25px;
+    z-index: -1;
+}
+.team-subtitle {
+    color: #222222;
+}
+.team-photos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.team-photo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 483px;
+    max-width: 270px;
 }
